@@ -1,6 +1,6 @@
 # Changelog
 
-## [Latest Version]
+## [1.0.1] - 2024-03-01
 
 ### Added
 
