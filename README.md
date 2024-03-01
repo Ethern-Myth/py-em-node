@@ -1,5 +1,7 @@
 # py-em-node
 
+[![npm downloads](https://img.shields.io/npm/dm/py-em-node)](https://www.npmjs.com/package/py-em-node)
+
 ## Introduction
 
 `py-em-node` is a Node.js package designed to facilitate the execution and management of Python scripts within a Node.js environment. It provides functions to install Python, read configuration files, and execute Python scripts seamlessly.
