@@ -64,7 +64,15 @@ This command will execute the Python script specified as the entry point in the 
 ```json
 {
   "entryPoint": "main.py",
-  "packageManager": "npm"
+}
+```
+
+If using python3, and/or already installed
+
+```json
+{
+  "entryPoint": "main.py",
+  "usePythonThree": true
 }
 ```
 
@@ -75,12 +83,6 @@ This command will execute the Python script specified as the entry point in the 
 Executes the specified Python script based on the provided script name.
 
 - `script`: Name of the script to execute.
-
-### installPython(packageManager?: string): Promise<string>
-
-Installs Python using the specified package manager.
-
-- `packageManager`: Optional parameter specifying the package manager to use for Python installation. If not provided, `npm` will be used by default.
 
 ### readConfig(): Config
 
