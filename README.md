@@ -56,7 +56,7 @@ This command will execute the Python script specified as the entry point in the 
 
 ### Configuration
 
-`py-em-node` supports configuration through a JSON file named `python.config.json`. TSON file `python.config.tson` will be removed in the next upcoming version. 
+`py-em-node` supports configuration through a JSON file named `python.config.json`. **TSON file** `python.config.tson` will be removed in the next upcoming version. 
 Place this file in the root directory of your project.
 
 #### Configuration Options
