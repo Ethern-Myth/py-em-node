@@ -50,6 +50,10 @@ yarn start
 
 This command will execute the Python script specified as the entry point in the configuration file.
 
+**Check out this video for quick sample usage**:
+
+[![Py-em-node-sample-video](https://img.youtube.com/vi/ByRaGhVCKPQ/0.jpg)](https://www.youtube.com/watch?v=ByRaGhVCKPQ)
+
 ### Configuration
 
 `py-em-node` supports configuration through a JSON or TSON file named `python.config.json` or `python.config.tson` respectively. Place this file in the root directory of your project.
@@ -113,5 +117,7 @@ This package is licensed under the MIT License. See the [LICENSE](./LICENSE) fil
 
 ## 🎯 The following features are planned for future support
 
-- Allow user to enter the requirement.txt, and let this handle the installation
+- Allow user to enter the requirement.txt, and let this handle the installation.
+- Add support for command support that execute a script or starts a project.
 - More to be added.
+  
