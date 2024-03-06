@@ -23,11 +23,7 @@ async function isPythonInstalled(pythonVersion?: string): Promise<boolean> {
 // Function to read configuration
 function readConfig(): Config {
 	try {
-		const configFile: string = fs.existsSync("python.config.json")
-			? "python.config.json"
-			: fs.existsSync("python.config.tson")
-			? "python.config.tson"
-			: "";
+		const configFile: string = fs.existsSync("python.config.json") ? "python.config.json": "";
 
 		if (!configFile) {
 			console.error("No configuration file found.");
