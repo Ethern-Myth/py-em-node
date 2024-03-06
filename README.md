@@ -50,14 +50,19 @@ yarn start
 
 This command will execute the Python script specified as the entry point in the configuration file.
 
+**Check out this video for quick sample usage**:
+
+[![Py-em-node-sample-video](https://img.youtube.com/vi/ByRaGhVCKPQ/0.jpg)](https://www.youtube.com/watch?v=ByRaGhVCKPQ)
+
 ### Configuration
 
-`py-em-node` supports configuration through a JSON or TSON file named `python.config.json` or `python.config.tson` respectively. Place this file in the root directory of your project.
+`py-em-node` supports configuration through a JSON file named `python.config.json`. **TSON file** `python.config.tson` will be removed in the next upcoming version. 
+Place this file in the root directory of your project.
 
 #### Configuration Options
 
 - `entryPoint`: Specifies the entry point Python file (default: `app.py`).
-- `packageManager`: Specifies the package manager to use for Python installation. (package Manager: 'npm', 'yarn' or 'pnpm')
+- `usePythonThree`: Specifies the use of python3 if installed on system
 
 #### Example Configuration File (python.config.json)
 
@@ -86,7 +91,7 @@ Executes the specified Python script based on the provided script name.
 
 ### readConfig(): Config
 
-Reads the configuration from the `python.config.json` or `python.config.tson` file and returns the configuration object.
+Reads the configuration from the `python.config.json` file and returns the configuration object.
 
 ### executePythonScript(scriptPath: string, args: string[]): void
 
@@ -105,7 +110,7 @@ This package is licensed under the MIT License. See the [LICENSE](./LICENSE) fil
 
 ---
 
-**Note:** Make sure to have Python installed on your system before using this package. If Python is not installed, `py-em-node` will attempt to install it using the specified package manager.
+**Note:** Make sure to have Python installed on your system before using this package.
 
 ## Credits
 
@@ -113,5 +118,7 @@ This package is licensed under the MIT License. See the [LICENSE](./LICENSE) fil
 
 ## 🎯 The following features are planned for future support
 
-- Allow user to enter the requirement.txt, and let this handle the installation
+- Allow user to enter the requirement.txt, and let this handle the installation.
+- Add support for command support that execute a script or starts a project.
 - More to be added.
+  
