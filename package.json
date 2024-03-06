@@ -1,6 +1,6 @@
 {
 	"name": "py-em-node",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "py-em-node is a Node.js package designed to facilitate the execution and management of Python scripts within a Node.js environment.",
 	"files": [
 		"dist"
