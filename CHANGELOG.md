@@ -1,12 +1,11 @@
 # Changelog
 
-## [Upcoming] - TBA
+## [1.0.2] - 2024-03-06
 
 ### Changes
 
 - Removed support for `python.config.tson`
 - Support FastAPI with Uvicorn, explicit controlled as:
-
 
   ```python
     # Import uvicorn at the top of the imports
@@ -15,9 +14,8 @@
     if __name__ == "__main__":
        uvicorn.run("main:app", reload=True)
   ```
-Custom Configurations can be handled on the `uvicorn.run(...)` same as on terminal or cmd. More documentation can be found at Uvicorn website [here](https://www.uvicorn.org).
 
-- Other features to be updated here
+Custom Configurations can be handled on the `uvicorn.run(...)` same as on terminal or cmd. More documentation can be found at Uvicorn website [here](https://www.uvicorn.org).
 
 ## [1.0.1] - 2024-03-01
 
